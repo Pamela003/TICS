@@ -1,81 +1,57 @@
 #encabezado {
     background-color: rgb(33, 27, 67);
     height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h1 {
-    text-align: center;
-    padding-top: 3.5rem;
-    font-style:normal;
-    color:rgb(229, 229, 229);
+    color: rgb(148, 192, 200);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8rem;
+    margin: 0;
 }
-.contenedor {
-  width: 300px;
-  height: 200px;
-  background-image: url("img/https://es.gizmodo.com/app/uploads/2025/06/Gizmodo-31-9.jpg");
-  background-size: cover;
-}
-
-#p1 {
-    color:rgb(0, 0, 0);
-    font-style: normal;
-    text-align: justify;
-}
-
-#contenido {
-    text-align: justify;
-}
-
-#info {
-    padding-top: 3.5rem;
-    font-size: large;
-}
-
-.container #contacto {
-    color:rgb(56, 45, 88);
-    font-size: medium;
-    font-style: oblique;
-    font-weight: 200;
-}
-.container .information {
-    color:rgb(67, 67, 145);
-    font-style:unset;
-    font-family: 'Arial';
-}
-.menú {
-    padding: 5.8rem;
-    font-family:Verdana;
-    font-size: small;
-}
-nav {
-    background-color: rgb(241, 241, 241);
-}
-
 body {
     background-color: rgb(217, 217, 217);
-}
-
-#fofo {
-    background-color: rgba(181, 195, 230, 0.552);
+    margin: 0;
+    font-family: Arial, sans-serif;
+},
+nav {
+    background-color: rgb(241, 241, 241);
+    padding: 0 40px;
 }
 ul {
     padding: 0;
     margin: 0;
-    display: flex inline;
-    justify-content: center;
-    height: 100vh;
-    gap: 1rem;
-
-}
-li {
+    display: flex;
+    align-items: center;
     list-style: none;
-
-
 }
 li a {
     text-decoration: none;
     color: #000;
-    padding: 10px 15px;
+    padding: 10px 10.3rem;
     display: block;
-    background-color: #f3f3f3;
-    transition: 0.5s;
+    transition: 0.3s;
+    font-size: 1.1rem
+}
+li a:hover {
+    background-color: rgb(33, 27, 67);
+    color: white;
+}
+#contenido {
+    max-width: 1420px;
+    margin: 10px auto;
+    font-size: 1.2rem;
+}
+.imagennarvales {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+#p1 {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    line-height: 1.1;
 }
